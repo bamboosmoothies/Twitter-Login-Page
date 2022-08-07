@@ -3,7 +3,7 @@ body {
 	padding: 0;
 	color: white;
 	font-size: 24px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Roboto", sans-serif;
 	overflow: hidden;
 }
 .grid-container {
@@ -12,19 +12,33 @@ body {
 		"left right"
 		"left right"
 		"footer footer";
-	height: 145vh;
 }
 .container-left {
+	position: absolute;
 	grid-area: left;
+	width: 52%;
+	height: 94.5%;
 	background-color: rgb(0, 111, 214);
 	background-image: url(https://abs.twimg.com/sticky/illustrations/lohp_en_1302x955.png);
 	background-size: cover;
 	background-position: center;
 }
+#twitter-logo-big {
+	fill: currentColor;
+	color: rgb(255, 255, 255);
+	height: 346px;
+	width: 282px;
+}
 
 .container-right {
+	position: absolute;
 	grid-area: right;
+	height: 94.5%;
+	width: 50%;
+	margin-left: 51.95%;
 	background-color: rgb(22, 24, 28);
+	background-size: cover;
+	background-position: center;
 }
 #twitter-logo-small {
 	height: 50px;
@@ -33,11 +47,30 @@ body {
 	color: rgb(214, 217, 219);
 }
 footer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 	white-space: nowrap;
 	background-color: rgb(22, 24, 28);
-	padding-bottom: 12px;
-	padding-top: 12px;
+	padding: 12px;
+	border: 0px solid black;
+	box-sizing: border-box;
+}
+
+footer a {
+	font-family: inherit;
+	overflow-wrap: break-word;
+	color: rgb(113, 118, 123);
+	font-size: 13px;
+}
+footer a:hover {
+	cursor: pointer;
+	text-decoration: underline;
 }
