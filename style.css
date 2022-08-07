@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-size: 24px;
+	font-family: Arial, Helvetica, sans-serif;
+	overflow: hidden;
+}
+.grid-container {
+	display: grid;
+	grid-template-areas:
+		"left right"
+		"left right"
+		"footer footer";
+	height: 145vh;
+}
+.container-left {
+	grid-area: left;
+	background-color: rgb(0, 111, 214);
+	background-image: url(https://abs.twimg.com/sticky/illustrations/lohp_en_1302x955.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.container-right {
+	grid-area: right;
+	background-color: rgb(22, 24, 28);
+}
+#twitter-logo-small {
+	height: 50px;
+	width: 50px;
+	fill: currentColor;
+	color: rgb(214, 217, 219);
+}
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	white-space: nowrap;
+	background-color: rgb(22, 24, 28);
+	padding-bottom: 12px;
+	padding-top: 12px;
+}
