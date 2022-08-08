@@ -45,45 +45,28 @@ h2 {
 	font-size: 31px;
 	font-weight: 700;
 }
+.btn-items {
+	width: 300px;
+	height: 40px;
+	border-radius: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 500;
+}
 #twitter-logo-small {
 	width: 3rem;
 	fill: rgb(214, 217, 219);
 }
 #btn-google {
-	width: 300px;
-	height: 40px;
-	border-radius: 25px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-weight: 500;
 }
 #btn-apple {
-	width: 300px;
-	height: 40px;
-	border-radius: 25px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-weight: 500;
 }
 #btn-email {
-	width: 300px;
-	height: 40px;
-	border-radius: 25px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-weight: 500;
 }
 #btn-sign-in {
-	width: 300px;
-	height: 40px;
-	border-radius: 25px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-weight: 500;
+	background-color: rgb(29, 155, 240);
+	border-color: rgba(0, 0, 0, 0);
 }
 footer {
 	position: absolute;
