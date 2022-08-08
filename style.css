@@ -53,6 +53,8 @@ h2 {
 	align-items: center;
 	justify-content: center;
 	font-weight: 500;
+	background-color: white;
+	border: 1px solid black;
 }
 #twitter-logo-small {
 	width: 3rem;
